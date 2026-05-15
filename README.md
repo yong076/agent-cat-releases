@@ -1,6 +1,6 @@
 # Agent Cat Downloads
 
-[Agent Cat](https://agent-cat.vercel.app) 의 공개 빌드(macOS DMG · Windows .exe) 만 보관하는 저장소예요. 제품 소스는 비공개이고, 여기엔 릴리즈 파일과 README 만 있습니다.
+[Agent Cat](https://agentcat.app) 의 공개 빌드(macOS DMG · Windows .exe) 만 보관하는 저장소예요. 제품 소스는 비공개이고, 여기엔 릴리즈 파일과 README 만 있습니다.
 
 Agent Cat 은 macOS 메뉴바 / Windows 트레이에서 Codex, Claude Code, Gemini CLI 의 활동을 로컬 메타데이터와 커넥터 스냅샷으로 보여주는 유틸리티입니다.
 
@@ -40,13 +40,13 @@ Agent Cat 은 macOS 메뉴바 / Windows 트레이에서 Codex, Claude Code, Gemi
 
 Agent Cat 은 로컬 활동 메타데이터와 사용량 스냅샷만 읽도록 설계되어 있어요. 프롬프트 본문, 응답, 대화 기록, 코드 내용은 의도적으로 저장하지 않습니다.
 
-- 데이터 정책 (친근 설명): <https://agent-cat.vercel.app/privacy>
-- 개인정보 처리방침 (정식 문서): <https://agent-cat.vercel.app/legal/privacy>
+- 데이터 정책 (친근 설명): <https://agentcat.app/privacy>
+- 개인정보 처리방침 (정식 문서): <https://agentcat.app/legal/privacy>
 
 ## 🔗 더 보기
 
-- 홈페이지: <https://agent-cat.vercel.app>
-- 트렌드 페이지: <https://agent-cat.vercel.app/trends>
+- 홈페이지: <https://agentcat.app>
+- 트렌드 페이지: <https://agentcat.app/trends>
 - 커넥터 (오픈소스): <https://github.com/yong076/agentcat-connectors>
 
 ---
@@ -74,5 +74,5 @@ Agent Cat is a menu bar (macOS) / system tray (Windows) utility that watches loc
 
 Prompts, responses, transcripts, and code contents are never stored. Only metadata (CPU, process names, opt-in usage events) is read.
 
-- Data policy: <https://agent-cat.vercel.app/privacy>
-- Privacy policy: <https://agent-cat.vercel.app/legal/privacy>
+- Data policy: <https://agentcat.app/privacy>
+- Privacy policy: <https://agentcat.app/legal/privacy>
