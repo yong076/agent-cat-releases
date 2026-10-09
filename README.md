@@ -1,5 +1,9 @@
 # Agent Cat Downloads
 
+**Agent Cat** is a free macOS menu bar and Windows tray app that shows Claude Code, Codex and Gemini CLI usage, remaining 5-hour and weekly limits, and reset times. → [agentcat.app](https://agentcat.app) · [English below](#english)
+
+**에이전트캣(Agent Cat)** 은 클로드 코드·코덱스·Gemini CLI 사용량과 남은 한도(5시간·주간), 리셋 시간을 맥 메뉴바와 윈도우 트레이에 띄워 주는 무료 앱이에요.
+
 [Agent Cat](https://agentcat.app) 의 공개 빌드(macOS DMG · Windows .exe) 만 보관하는 저장소예요. 제품 소스는 비공개이고, 여기엔 릴리즈 파일과 README 만 있습니다.
 
 Agent Cat 은 macOS 메뉴바 / Windows 트레이에서 Codex, Claude Code, Gemini CLI 의 활동을 로컬 메타데이터와 커넥터 스냅샷으로 보여주는 유틸리티입니다.
@@ -18,6 +22,8 @@ Agent Cat 은 macOS 메뉴바 / Windows 트레이에서 Codex, Claude Code, Gemi
 - **최신 릴리즈**: <https://github.com/yong076/agent-cat-releases/releases/latest>
   - macOS: `AgentCat-<버전>-<해시>.dmg`
   - Windows: `AgentCat-<버전>-win-x64-setup.exe`
+- **스토어**: [Mac App Store](https://apps.apple.com/app/id6769434137) · [Microsoft Store](https://apps.microsoft.com/detail/9pphrk2hkvr7) · [iPhone](https://apps.apple.com/app/id6804198497) · [Android](https://play.google.com/store/apps/details?id=com.trappist.agentcat.mobile)
+  - 맥 앱스토어 버전은 토큰 사용량과 코덱스 한도를 보여줘요. 클로드 한도·리셋권·여러 계정 보기는 위 DMG 버전에서 지원해요.
 
 ## 🔧 설치
 
@@ -46,8 +52,10 @@ Agent Cat 은 로컬 활동 메타데이터와 사용량 스냅샷만 읽도록 
 ## 🔗 더 보기
 
 - 홈페이지: <https://agentcat.app>
+- 클로드 코드 사용량·한도 확인하는 법: <https://agentcat.app/guide/claude-code-usage>
+- 코덱스 사용량·한도·리셋 시간 확인하는 법: <https://agentcat.app/guide/codex-limits>
 - 트렌드 페이지: <https://agentcat.app/trends>
-- 커넥터 (오픈소스): <https://github.com/yong076/agentcat-connectors>
+- 커넥터 (소스 공개, PolyForm Shield): <https://github.com/yong076/agentcat-connectors>
 
 ---
 
@@ -64,6 +72,8 @@ Agent Cat is a menu bar (macOS) / system tray (Windows) utility that watches loc
 ### Download
 
 - Latest release: <https://github.com/yong076/agent-cat-releases/releases/latest>
+- Stores: [Mac App Store](https://apps.apple.com/app/id6769434137) · [Microsoft Store](https://apps.microsoft.com/detail/9pphrk2hkvr7) · [iPhone](https://apps.apple.com/app/id6804198497) · [Android](https://play.google.com/store/apps/details?id=com.trappist.agentcat.mobile)
+  - The Mac App Store version shows token usage and Codex limits. Claude limits, reset credits and multiple accounts need the DMG above.
 
 ### Install
 
@@ -72,7 +82,13 @@ Agent Cat is a menu bar (macOS) / system tray (Windows) utility that watches loc
 
 ### Privacy
 
-Prompts, responses, transcripts, and code contents are never stored. Only metadata (CPU, process names, opt-in usage events) is read.
+Prompts, responses, transcripts and code contents are not stored or uploaded. Usage is summarized on your computer; the data policy lists exactly what leaves it.
 
 - Data policy: <https://agentcat.app/privacy>
 - Privacy policy: <https://agentcat.app/legal/privacy>
+
+### Guides
+
+- How to check Claude Code usage and limits: <https://agentcat.app/en/guide/claude-code-usage>
+- How to check Codex usage, limits and reset times: <https://agentcat.app/en/guide/codex-limits>
+- Connector (source-available, PolyForm Shield): <https://github.com/yong076/agentcat-connectors>
