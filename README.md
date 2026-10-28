@@ -26,7 +26,7 @@ Agent Cat 은 macOS 메뉴바 / Windows 트레이에서 Codex, Claude Code, Gemi
 1. Releases 페이지에서 DMG 를 받아주세요.
 2. DMG 를 열고 `Agent Cat.app` 을 `응용 프로그램` 폴더로 드래그합니다.
 3. 응용 프로그램에서 Agent Cat 을 실행합니다.
-4. 서명되지 않은 테스터 빌드가 차단되면, 앱을 우클릭 → `열기` 또는 `시스템 설정 → 개인정보 보호 및 보안 → 열기 허용` 으로 진행합니다.
+4. 앱은 Apple Developer ID로 서명되고 공증(notarized)되어 있어 바로 열립니다. 그래도 경고가 뜨면 앱을 우클릭 → `열기` 로 진행합니다.
 5. 첫 실행 시 안내되는 로컬 커넥터 설치 마법사를 따라가면 됩니다.
 
 ### Windows
@@ -67,7 +67,7 @@ Agent Cat is a menu bar (macOS) / system tray (Windows) utility that watches loc
 
 ### Install
 
-- **macOS**: Open the DMG, drag `Agent Cat.app` into `Applications`, launch it. If the unsigned build is blocked, right-click → `Open` or use `System Settings → Privacy & Security → Open Anyway`.
+- **macOS**: Open the DMG, drag `Agent Cat.app` into `Applications`, launch it. The app is signed with an Apple Developer ID and notarized, so it opens like any other app. If macOS still warns, right-click → `Open`.
 - **Windows**: Run the `.exe` installer. If SmartScreen flags it, click `More info → Run anyway`. Code signing is on the roadmap.
 
 ### Privacy
