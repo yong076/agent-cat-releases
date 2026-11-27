@@ -1,3 +1,32 @@
+# Agent Cat — Claude Code & Codex usage, quota and reset monitor
+
+**Free macOS menu bar and Windows tray app** that shows how much of your AI coding agents'
+quota is left — Claude Code, OpenAI Codex, Gemini CLI and OpenCode — with iPhone and Android
+companions.
+
+- Remaining **5-hour and 7-day quota** and the next **reset time**, when the provider exposes it
+- **Codex reset credits**: how many you have and when they expire; reset notifications on Mac
+- Tokens and estimated cost **by model and by project folder**; history by period
+- Several signed-in accounts per CLI side by side
+- **Local metadata only** — prompts, replies and code are never stored or uploaded
+- Free. No subscription, no paid unlocks
+
+**Get it:** [Mac App Store](https://apps.apple.com/app/agentcat/id6769434137?mt=12) ·
+[Microsoft Store](https://apps.microsoft.com/detail/9pphrk2hkvr7) ·
+[Latest DMG / EXE](https://github.com/yong076/agent-cat-releases/releases/latest) ·
+[iPhone](https://apps.apple.com/app/id6804198497) ·
+[Android](https://play.google.com/store/apps/details?id=com.trappist.agentcat.mobile)
+
+More: [agentcat.app](https://agentcat.app/en) ·
+[Claude Code usage tracker](https://agentcat.app/claude-code-usage-tracker) ·
+[Codex quota monitor](https://agentcat.app/codex-quota-monitor) ·
+[Data policy](https://agentcat.app/privacy) ·
+[Connector source](https://github.com/yong076/agentcat-connectors) (source-available)
+
+Questions, bugs and feature requests: [Issues](https://github.com/yong076/agent-cat-releases/issues).
+
+---
+
 # Agent Cat Downloads
 
 [Agent Cat](https://agentcat.app) 의 공개 빌드(macOS DMG · Windows .exe) 만 보관하는 저장소예요. 제품 소스는 비공개이고, 여기엔 릴리즈 파일과 README 만 있습니다.
@@ -48,31 +77,3 @@ Agent Cat 은 로컬 활동 메타데이터와 사용량 스냅샷만 읽도록 
 - 홈페이지: <https://agentcat.app>
 - 트렌드 페이지: <https://agentcat.app/trends>
 - 커넥터 (오픈소스): <https://github.com/yong076/agentcat-connectors>
-
----
-
-## English
-
-This repository hosts the public Agent Cat builds (macOS DMG · Windows .exe). The product source code lives in a private repository; only release artifacts and this README are public here.
-
-Agent Cat is a menu bar (macOS) / system tray (Windows) utility that watches local Codex, Claude Code, and Gemini CLI activity through local metadata and connector snapshots.
-
-### 💬 Questions, bugs, feature requests
-
-**Please open them all on the [Issues](https://github.com/yong076/agent-cat-releases/issues) tab.** Filing on the tracker keeps everything public so others can see the same problem or upvote the same request. Korean and English both welcome.
-
-### Download
-
-- Latest release: <https://github.com/yong076/agent-cat-releases/releases/latest>
-
-### Install
-
-- **macOS**: Open the DMG, drag `Agent Cat.app` into `Applications`, launch it. The app is signed with an Apple Developer ID and notarized, so it opens like any other app. If macOS still warns, right-click → `Open`.
-- **Windows**: Run the `.exe` installer. If SmartScreen flags it, click `More info → Run anyway`. Code signing is on the roadmap.
-
-### Privacy
-
-Prompts, responses, transcripts, and code contents are never stored. Only metadata (CPU, process names, opt-in usage events) is read.
-
-- Data policy: <https://agentcat.app/privacy>
-- Privacy policy: <https://agentcat.app/legal/privacy>
